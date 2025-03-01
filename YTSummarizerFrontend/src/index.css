@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::selection {
+  background-color: white;
+  color: black;
+}
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.noto-sans-font {
+  font-family: "Noto Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.main-container {
+  margin: auto auto;
+  min-width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-align {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.full-width {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  /* border-bottom: 1px solid rgba(195, 194, 194, 0.805); */
+}
+
+.Summary-container {
+  margin: 30px auto;
+  width: 50vw;
+  border: solid rgba(255, 255, 255, 0.233);
+  text-align: start;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(147, 147, 147, 0.376);
+  /* font-size: large; */
+  letter-spacing: 0.5px;
+  word-spacing: 1px;
+}
+
+.sticky-bottom {
+  position: fixed;
+  bottom: 0px;
+  /* top: 90vh; */
+  /* top: 82vh; */
+  z-index: 100;
+  background-color: rgba(19, 19, 19, 0.575);
+  backdrop-filter: blur(10px);
+  height: 80px;
+}
+
+.QNAContainer {
+  margin: 30px auto;
+  margin-bottom: 80px;
+  width: 50vw;
+  border: solid rgba(255, 255, 255, 0.119);
+  text-align: start;
+  padding: 20px;
+  border-radius: 20px;
+  /* box-shadow: 0px 0px 15px rgba(147, 147, 147, 0.545); */
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Answer,
+.Question {
+  border: 1px solid rgba(255, 255, 255, 0.087);
+  /* width: 85%; */
+  max-width: 85%;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px 12px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.117);
+  background: rgba(255, 255, 255, 0.087);
+  backdrop-filter: blur(10px);
+}
+
+.Answer {
+  align-self: flex-start;
+  text-align: start;
+}
+.Question {
+  text-align: end;
+  align-self: flex-end;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .Summary-container {
+    margin: auto auto;
+    width: 90vw;
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  .QNAContainer {
+    margin: 5px auto;
+    margin-bottom: 100px;
+    width: 90vw;
+    border: solid rgba(255, 255, 255, 0.119);
+    text-align: start;
+    padding: 5px;
+    border-radius: 20px;
+    /* box-shadow: 0px 0px 15px rgba(147, 147, 147, 0.545); */
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
