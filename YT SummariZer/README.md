@@ -37,5 +37,6 @@ To get started with the backend project, follow these steps:
 
 1. **Install and Run:**
    ```sh
-  NPM install
-  NODE index.js
+   npm install
+   node index.js
+ 
