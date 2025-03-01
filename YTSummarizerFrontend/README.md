@@ -38,5 +38,5 @@ To get started with the frontend project, follow these steps:
 
 1. **Clone the repository:**
    ```sh
-   git clone [Your Repository URL]
-   cd [Your Project Name]
+   git clone https://github.com/premj01/YT-Video-Summarizer
+   cd YT-Video-Summarizer
