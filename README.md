@@ -1,6 +1,6 @@
 ﻿# YT-Video-Summarizer
 
-##YouTube Video https://youtu.be/G3iNiOys5l8
+## YouTube Video https://youtu.be/G3iNiOys5l8
 
 This application built using React, Express, and a MySQL database. The project leverages the power of the Google Gemini API for advanced text processing and the YouTube-transcript library for generating video transcripts. To top it off, I used NextUI for a modern and responsive user interface.
 
