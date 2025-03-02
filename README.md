@@ -1,4 +1,4 @@
-﻿# YT-Video-Summarizer(#https://youtu.be/G3iNiOys5l8)
+﻿# YT-Video-Summarizer
 
 ## YouTube Video: https://youtu.be/G3iNiOys5l8
 
