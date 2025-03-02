@@ -36,4 +36,7 @@ This application built using React, Express, and a MySQL database. The project l
 ## Installation
 ```sh
  You can do it 😄
+```
+YouTube Video: https://youtu.be/G3iNiOys5l8
+
 
